@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.row {
+  margin-bottom: 40px;
+}
+
+
+.product {
+  position: relative;
+  display: inline-block;
+}
+
+
+.product .number {
+  position: absolute;
+  right:0px;
+  top:0px;
+  width: 35px;
+  background-color: green;
+  height: 20px;
+}
+
+.product .number-red {
+  position: absolute;
+  right:0px;
+  top:0px;
+  width: 35px;
+  background-color: red;
+  height: 20px;
+}
+
+.product .heart {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  color:red;
+  text-align: center;
+}
+
+.product:hover .heart {
+  display: block;
+}
