@@ -1,21 +1,24 @@
+
+/* inizio reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* fine reset */
 
-
+/*  margine righe*/
 .row {
-  margin-bottom: 40px;
+  margin: 10px 10px 30px 10px;
 }
 
-
+/* immagini prodotti in linea */
 .product {
   position: relative;
   display: inline-block;
 }
 
-
+/* sconti sfondo verde  */
 .product .number {
   position: absolute;
   right:0px;
@@ -24,7 +27,9 @@
   background-color: green;
   height: 20px;
 }
+/* fine sconti sfondo verde */
 
+/* sconti con sfondo rosso */
 .product .number-red {
   position: absolute;
   right:0px;
@@ -33,7 +38,9 @@
   background-color: red;
   height: 20px;
 }
+/* fine sconti con sfondo rosso */
 
+/* cuore */
 .product .heart {
   display: none;
   width: 100%;
@@ -41,8 +48,11 @@
   bottom: 20px;
   color:red;
   text-align: center;
+  font-size: 25px;
 }
 
+/* hover sul cuore */
 .product:hover .heart {
   display: block;
 }
+/* fine cuore */
